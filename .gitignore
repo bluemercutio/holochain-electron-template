@@ -1,0 +1,15 @@
+binaries
+node_modules
+out/
+user2-data
+user-data
+electron/web
+
+happ/workdir/*.dna
+happ/workdir/*.happ
+
+target/
+.hc
+
+**/.DS_Store
+.DS_Store

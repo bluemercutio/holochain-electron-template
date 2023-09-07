@@ -1,0 +1,12 @@
+[package]
+name = "coordinator"
+version = "0.0.1"
+edition = "2021"
+
+[lib]
+name = "coordinator"
+crate-type = ["cdylib", "rlib"]
+
+[dependencies]
+hdk = "0.1.0-beta-rc.1"
+integrity = { path = "../integrity" }
